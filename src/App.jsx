@@ -42,7 +42,7 @@ const App = () => {
   1. I made this way too late!
   1. And last but not least, let's not forget embedded images that I will eventually replace with very likely a pizza!
   
-  ![freeCodeCamp Logo](https://cdn.freecodecamp.org/testable-projects-fcc/images/fcc_secondary.svg);`
+  ![freeCodeCamp Logo](https://cdn.freecodecamp.org/testable-projects-fcc/images/fcc_secondary.svg)`;
   
 
   return (
