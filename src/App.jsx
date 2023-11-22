@@ -7,42 +7,45 @@ const App = () => {
   ## Lorem Ipsum...
   ### Ipsum Lurm
   
-  Heres some code, `<div></div>`, between 2 backticks.
+  Heres some code, \`<div></div>\`, between 2 backticks.
   
-  ```
+  \`\`\`
   // this is multi-line code:
   
-  const beep () => {
-     consol.log("boop");
-};
-  ```
+  function anotherExample(firstLine, lastLine) {
+    if (firstLine == '\`\`\`' && lastLine == '\`\`\`') {
+      return multiLineCode;
+    }
+  }
+  \`\`\`
   
-  Here's a bold new flavor! **cheese**... whoa!
-  Or lets make a word  _Italian_.
-  Or... wait for it... **_Cheese Pizza _**
-  But lets cross out the crazy bread  ~~bread ~~.
+  You can also make text **bold**... whoa!
+  Or _italic_.
+  Or... wait for it... **_both!_**
+  And feel free to go crazy ~~crossing stuff out~~.
   
-  The website that helped me get here [links](https://www.freecodecamp.org), and some possibly
+  There's also [links](https://www.freecodecamp.org), and
   > Block Quotes!
   
-  Look at all these flippable tables!:
+  And if you want to get really crazy, even tables:
   
-  Wild muenster | Crazy brie | Another cheddar?
+  Wild Header | Crazy Header | Another Header?
   ------------ | ------------- | -------------
-  Your pizza can | eat here, and it | can be disappear ....
-  wherever . | Okay. |So don't sue.
+  Your content can | be here, and it | can be here....
+  And here. | Okay. | I think we get it.
   
-  - And of course there are goblins.
-    - Some are nice.
-       - some are not so nice.
-          - but who knows.
+  - And of course there are lists.
+    - Some are bulleted.
+       - With different indentation levels.
+          - That look like this.
   
   
-  1. Thank you for coming.
-  1. I made this way too late!
-  1. And last but not least, let's not forget embedded images that I will eventually replace with very likely a pizza!
+  1. And there are numbered lists too.
+  1. Use just 1s if you want!
+  1. And last but not least, let's not forget embedded images:
   
-  ![freeCodeCamp Logo](https://cdn.freecodecamp.org/testable-projects-fcc/images/fcc_secondary.svg)`;
+  ![freeCodeCamp Logo](https://cdn.freecodecamp.org/testable-projects-fcc/images/fcc_secondary.svg)
+  `;
   
 
   return (
