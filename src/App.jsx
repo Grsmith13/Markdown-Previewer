@@ -10,39 +10,40 @@ const App = () => {
   Heres some code, \`<div></div>\`, between 2 backticks.
   
   \`\`\`
-  // this is multi-line code:
+  // Look code!:
   
-  function anotherExample(firstLine, lastLine) {
+  function boop(firstLine, lastLine) {
     if (firstLine == '\`\`\`' && lastLine == '\`\`\`') {
-      return multiLineCode;
+      return bop;
     }
   }
   \`\`\`
   
-  You can also make text **bold**... whoa!
-  Or _italic_.
-  Or... wait for it... **_both!_**
-  And feel free to go crazy ~~crossing stuff out~~.
+  Here's a bold new flavor! **cheese**... whoa!
+  Or lets make a word  _Italian_.
+  Or... wait for it... **_Cheese Pizza _**
+  But lets cross out the crazy bread  ~~bread ~~.
   
-  There's also [links](https://www.freecodecamp.org), and
+
+  The website that helped me get here [links](https://www.freecodecamp.org), and some possibly
   > Block Quotes!
   
-  And if you want to get really crazy, even tables:
+  Look at all these flippable tables!:
   
-  Wild Header | Crazy Header | Another Header?
+  Wild muenster | Crazy brie | Another cheddar?
   ------------ | ------------- | -------------
-  Your content can | be here, and it | can be here....
-  And here. | Okay. | I think we get it.
+  Your pizza can | eat here, and it | can be disappear ....
+  wherever . | Okay. |So don't sue.
   
-  - And of course there are lists.
-    - Some are bulleted.
-       - With different indentation levels.
-          - That look like this.
+  - And of course there are goblins.
+    - Some are nice.
+       - some are not so nice.
+          - but who knows.
   
   
-  1. And there are numbered lists too.
-  1. Use just 1s if you want!
-  1. And last but not least, let's not forget embedded images:
+  1. Thank you for coming.
+  1. I made this way too late!
+  1. And last but not least, let's not forget embedded images that I will eventually replace with very likely a pizza!
   
   ![freeCodeCamp Logo](https://cdn.freecodecamp.org/testable-projects-fcc/images/fcc_secondary.svg)
   `;
